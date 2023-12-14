@@ -1,0 +1,61 @@
+#testmonial{
+    background-color: var(--color-bg);
+}
+
+.testmonial-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.title{
+    text-align: center;
+}
+
+.testmonial-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: auto;
+    max-width: 350px;
+    padding: 1rem;
+}
+
+.testmonial-card img{
+    width: 6rem;
+    height: 6rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.testmonial-card h4{
+    text-transform: uppercase;
+    color: var(--color-dark);
+}
+
+.testmonial-card h5{
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0.5rem 0;
+    color: var(--color-dark);
+}
+
+.quotes{
+    font-size: 18px;
+    color: var(--color-primary);
+}
+
+
+@media screen and (max-width: 600px){
+
+    .title{
+        text-align: center;
+    }
+
+    .testmonial-container{
+        width: fit-content;
+        grid-template-columns: 1fr;
+    }
+}

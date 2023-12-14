@@ -1,0 +1,55 @@
+.slider{
+    margin: 50px;
+}
+
+.card-top h1 {
+    font-size: 0.9rem;
+    margin: 20px;
+  }
+  
+  .card-top > img {
+    margin: 15px;
+    width: 90%;
+    height: 200px;
+    object-fit: cover;
+    background: black;
+  }
+  
+  .card-bottom {
+    margin: 10px 20px;
+  }
+  
+  .category {
+    position: relative;
+  }
+
+
+.gift{
+  margin-top: 50px;
+  background: #B4BDFF;
+}
+
+.gift-content{
+  text-align: center;
+  padding-top: 30px;
+}
+
+.main-content{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.tour-memories img{
+  margin-left: 100px;
+  width: 60px;
+  height: 60px;
+}
+
+.tour-memories h4{
+  text-align: center;
+}
+
+.tour-memories span{
+  text-align: center;
+}

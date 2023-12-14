@@ -1,0 +1,91 @@
+.info{
+    margin-top: 70px;
+    background: #F5F7F8;
+}
+
+.infoContainer .titleDev{
+    margin-top: 70px;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+        
+.cardsDev{
+    gap: 1.5rem;
+    margin-top: 3rem;
+    display: flex;
+}
+
+.cardsDev .singleCard{
+    background: var(--whiteColor);
+    padding: 3rem 2rem;
+    border-radius: 10rem;
+    gap: 1rem;
+    text-align: center;
+    margin: auto;
+    height: 320px;
+    width: 90%;
+}
+
+.singleCard .iconDev{
+    justify-content: center;
+    margin: auto;
+    /* background: var(--primaryColor); */
+    width: max-content;
+    height: 55px;
+    padding: 1rem;
+    border-radius: 10rem;
+}
+
+.iconDev img{
+    width: 60px;
+    height: 60px;
+}
+
+.cardTitle{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* .iconDev .icon{
+    color: var(--whiteColor);
+} */
+
+@media screen and (max-width:568px){
+
+.info .infoContainer .titleDev{
+            flex-direction: row;
+}
+.titleDev h2{
+    text-align: left;
+    max-width: 500px;
+}
+
+.cardsDev{
+   flex-direction: column;
+}
+}
+  
+       
+@media screen and (min-width:768px){
+
+    .info .infoContainer{
+        padding: 0 6rem;
+    }
+    
+.infoContainer .titleDev{
+    width: 90%;
+    margin: auto;
+    align-items: center;
+}
+            
+.cardsDev{
+    grid-template-columns: repeat(3,1fr);
+}
+
+.cardsDev .singleCard{
+    max-width: 260px;
+    padding: 3rem 1rem;
+}
+}

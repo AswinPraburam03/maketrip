@@ -1,0 +1,176 @@
+.header{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 1rem;
+    z-index: 1000;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    top: 0;
+}
+
+.logo{
+    color: #2E4374;
+    font-weight: 600;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon{
+    font-size: 24px;
+    color: #028090;
+    transform: translateY(5px);
+    
+}
+
+
+
+@media screen and (max-width: 768px){
+    .navBar{
+        position: absolute;
+        background: whitesmoke;
+        height: max-content;
+        width: 80%;
+        border-radius: 1rem;
+        top: -500rem;
+        left: 50%;
+        transform: translate(-50%);
+        z-index: 2000;
+        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+        transition: 1s ease-in-out;
+    }
+
+    .NavLists{
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: auto;
+        padding: 0.5rem 0;
+    }
+
+    .navItem{
+        padding: 0.5rem 0;
+        font-size: 16px;
+        font-weight: 500; 
+    }
+
+    .NavLists li a{
+        color: #272829;
+    }
+
+    .btn{
+        margin-top: 1rem;
+        background-color: #028090;
+        font-weight: 500;
+    }
+
+    .btn a{
+        color: #fff;
+    }
+
+    .closeNavbar{
+        position: absolute;
+        top: 1rem;
+        right: 1.5rem;
+        color: #028090
+    }
+
+    .activeNavbar{
+        top: 7rem;
+    }
+
+}
+
+@media screen and (min-width:769px){
+    .closeNavbar, .toggleNavbar{
+        display: none;
+    }
+
+    .header{
+        padding: 1.5rem 2rem;
+    }
+
+    .navBar .NavLists{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+    }
+
+    .navBar .NavLists .navItem .navLink{
+        color: #028090;
+        padding: 0 0.45rem;
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .navBar .NavLists .navItem .navLink:hover{
+        color: #2E4374;
+    }
+
+    .btn{
+        margin-left: 1rem;
+    }
+
+    .btn a{
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+}
+
+
+@media screen and (min-width:960px){
+    .header .navBar{   
+        padding: 0 0.7rem;
+    }
+
+    .navBar .NavLists .navItem .navLink{
+        font-size: 14px;
+    }
+
+    .closeNavbar, .toggleNavbar{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1240px){
+    .header{
+        padding: 1rem 8.5rem ;
+    }
+
+    .navBar .NavLists .navItem .navLink{
+        padding: 1.5rem;
+        font-size: 18px;
+    }
+
+    .btn a{
+        font-size: 12px;
+    }
+
+    .closeNavbar{
+        display: none;
+    }
+}
+
+@media screen and (min-width:1290px){
+    .navBar .NavLists .navItem .navLink{
+        padding: 16px;
+        font-size: 20px;
+    }
+
+    .btn{
+        margin-left: 2rem;
+    }
+
+    .btn a{
+        font-size: 14px;
+    }
+
+    .closeNavbar, .toggleNavbar{
+        display: none;
+    }
+}

@@ -1,0 +1,71 @@
+[
+    {
+        "imgURL": "./new1_.jpg",
+        "name": "Women Handbag",
+        "price": "Rs.1000",
+        "old": "Rs.1500"
+    },
+    {
+        "imgURL": "./new2.jpg",
+        "name": "Men Wallet",
+        "category": "Ladies",
+        "price": "Rs.1900",
+        "old": "Rs.2000"
+    },
+    {
+        "imgURL": "./new3.jpg",
+        "name": "Clogs",
+        "category": "garments",
+        "price": "Rs.200",
+        "old": "Rs.400"
+    },
+    {
+        "imgURL": "./new4.jpg",
+        "name": "Lipstick",
+        "category": "cosmetics",
+        "price": "Rs.250",
+        "old": "Rs.500"
+    },
+    {
+        "imgURL": "./new5.jpg",
+        "name": "Men's Shorts",
+        "category": "Shoes",
+        "price": "Rs.2000",
+        "old": "Rs.2500"
+    },
+    {
+        "imgURL": "./new6.jpg",
+        "name": "Men's Watch",
+        "category": "fragrance",
+        "price": "Rs.999",
+        "old": "Rs.1299"
+    },
+    {
+        "imgURL": "./new7.jpg",
+        "name": "Sports Shoes",
+        "category": "Accessories",
+        "price": "Rs.12,580",
+        "old": "Rs.15,000"
+    },
+    {
+        "imgURL": "./new8.jpg",
+        "name": "Casual shirt",
+        "category": "Children",
+        "price": "Rs.700",
+        "old": "Rs.900"
+    },
+    {
+        "imgURL": "./new9.jpg",
+        "name": "Brown Jacket",
+        "category": "Women",
+        "price": "Rs.6500",
+        "old": "Rs.7000"
+    },
+    {
+        "imgURL": "./new10.jpg",
+        "name": "Apple AirPods Pro",
+        "category": "Men",
+        "price": "Rs.950",
+        "old": "Rs.1000"
+    }
+]
