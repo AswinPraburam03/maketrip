@@ -49,9 +49,6 @@ const Footer = () => {
           <a href="">FAQ</a>
         </li>
         <li>
-          <a href="">How to</a>
-        </li>
-        <li>
           <a href="">Features</a>
         </li>
         <li>
@@ -60,17 +57,11 @@ const Footer = () => {
         <li>
           <a href="">Route Map</a>
         </li>
-        <li>
-          <a href="">Our Communities</a>
-        </li>
       </div>
 
 
       <div className="footer-links">
         <span className="linkTitle">Quick Links</span>
-        <li>
-          <a href="">Chauffuer</a>
-        </li>
         <li>
           <a href="">Our Partners</a>
         </li>
@@ -82,9 +73,6 @@ const Footer = () => {
         </li>
         <li>
           <a href="">Transportation</a>
-        </li>
-        <li>
-          <a href="">Programme Rules</a>
         </li>
       </div>
     </div>
